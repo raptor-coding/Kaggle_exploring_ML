@@ -1,6 +1,6 @@
 #!/usr/bin/env python3.5
 # -*- coding: utf-8 -*-
-# @author: Julien HUBERT
+# @author: raptor-coding
 
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
