@@ -29,4 +29,4 @@ Matrice de corrélation pour données numériques.
 Matrice de corrélation pour données catégoriques.
 
 Machine Learning :
-Suppression variable colinéaire, dummies variables, gestion des données abérrantes, training/test set, feature scaling, modèle LinearRegression et modèle ExtraTreesRegressor -> résulat MAE, RMSE, RMSLE, R2 et accuracy
+Suppression variable colinéaire, dummies variables, gestion des données abérrantes, training/test set, feature scaling, modèle LinearRegression et modèle ExtraTreesRegressor -> résulat MAE, RMSE, RMSLE et R2
