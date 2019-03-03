@@ -87,9 +87,6 @@ print('MAE : ',mean_absolute_error(y_test, y_pred))
 print('RMSE : ',sqrt(mean_squared_error(y_test,y_pred)))
 print('RMSLE : ',rmsle(y_test,y_pred))
 print('R2 : ',r2_score(y_test, y_pred))
-mape = 100 * (mean_absolute_error(y_test, y_pred) / y_test)
-accuracy = 100 - np.mean(mape)
-print('Accuracy :', 100+round(accuracy, 2), '%.')
 
 # Construction du modele de ExtraTreesRegressor
 from sklearn.ensemble import ExtraTreesRegressor
@@ -113,7 +110,4 @@ print('MAE : ',mean_absolute_error(y_test, y_pred2))
 print('RMSE : ',sqrt(mean_squared_error(y_test,y_pred2)))
 print('RMSLE : ',rmsle(y_test,y_pred2))
 print('R2 : ',r2_score(y_test, y_pred2))
-mape = 100 * (mean_absolute_error(y_test, y_pred2) / y_test)
-accuracy = 100 - np.mean(mape)
-print('Accuracy :', 100+round(accuracy, 2), '%.')
 
